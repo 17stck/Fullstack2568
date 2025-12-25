@@ -9,6 +9,8 @@ names.forEach(name => {
     console.log(name);
 });
 
+names.forEach(myFunction);
+
 function myFunction(name) {
     console.log(name);
 }
